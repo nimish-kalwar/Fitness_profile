@@ -66,15 +66,15 @@ Edit
 uvicorn main:app --reload
 Now open your browser at http://127.0.0.1:8000
 
-☁️ Deployment on Render
-1️⃣ Push code to GitHub
+## ☁️ Deployment on Render
+### 1️⃣ Push code to GitHub
 bash
 Copy
 Edit
 git add .
 git commit -m "Initial commit"
 git push origin main
-2️⃣ Create a new Render Web Service
+### 2️⃣ Create a new Render Web Service
 Go to https://render.com → New → Web Service
 
 Connect your GitHub repo
@@ -93,7 +93,7 @@ bash
 Copy
 Edit
 uvicorn main:app --host 0.0.0.0 --port $PORT
-3️⃣ Deploy
+### 3️⃣ Deploy
 Click Deploy and wait for the build to finish.
 
 Once deployed, you’ll get a live URL like:
