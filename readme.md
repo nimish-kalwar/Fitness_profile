@@ -81,18 +81,12 @@ Connect your GitHub repo
 
 Environment: Python 3.x
 
-Build Command:
+#### Build Command:
+##### pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Start Command:
+#### Start Command:
+##### uvicorn main:app --host 0.0.0.0 --port $PORT
 
-bash
-Copy
-Edit
-uvicorn main:app --host 0.0.0.0 --port $PORT
 ### 3️⃣ Deploy
 Click Deploy and wait for the build to finish.
 
