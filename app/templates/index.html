@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fitness Trainer</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>💪 AI Fitness Trainer</h1>
+        <form id="fitness-form">
+            <label>Age:</label>
+            <input type="number" id="age" required>
+
+            <label>Weight (kg):</label>
+            <input type="number" id="weight" required>
+
+            <label>Height (cm):</label>
+            <input type="number" id="height" required>
+
+            <label>Gender:</label>
+            <select id="gender" required>
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label>Activity Level:</label>
+            <select id="activity_level" required>
+                <option value="">Select...</option>
+                <option value="sedentary">Sedentary</option>
+                <option value="light">Light</option>
+                <option value="moderate">Moderate</option>
+                <option value="very_active">Very Active</option>
+                <option value="athlete">Athlete</option>
+            </select>
+
+            <label>Fitness Goal:</label>
+            <select id="fitness_goal" required>
+                <option value="">Select...</option>
+                <option value="weight_loss">Weight Loss</option>
+                <option value="muscle_gain">Muscle Gain</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="endurance">Endurance</option>
+                <option value="strength">Strength</option>
+            </select>
+
+            <label>Dietary Restrictions (comma separated):</label>
+            <input type="text" id="dietary_restrictions">
+
+            <label>Injuries (comma separated):</label>
+            <input type="text" id="injuries">
+
+            <label>Preferred Workout Time:</label>
+            <select id="preferred_workout_time" required>
+                <option value="">Select...</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="night">Night</option>
+            </select>
+
+            <label>Available Equipment (comma separated):</label>
+            <input type="text" id="available_equipment">
+
+            <label>Workout Days per Week:</label>
+            <select id="workout_days_per_week" required>
+                <option value="">Select...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+            <button type="submit" class="btn">Generate Plan</button>
+        </form>
+
+        <div id="loading" style="display:none; text-align:center; margin-top:20px;">
+            <div class="spinner"></div>
+            <p>Generating your plan...</p>
+        </div>
+
+        <div id="result" class="result" style="display:none;">
+            <div id="result-content"></div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
