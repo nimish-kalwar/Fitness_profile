@@ -13,7 +13,7 @@ The app then returns a **personalized workout and diet plan** in a visually appe
 - **Loading animation** while fetching results
 - **Smooth fade-in effect** for displaying AI-generated plans
 - AI integration using `pydantic_ai` (or other AI provider)
-- Fully deployable for free using [Render](https://render.com)
+- Fully deployable for free using [Render](https://fitness-profile.onrender.com)
 
 ---
 
@@ -22,7 +22,7 @@ The app then returns a **personalized workout and diet plan** in a visually appe
 - **Frontend:** HTML, CSS, JavaScript  
 - **Templating:** Jinja2  
 - **AI Service:** pydantic_ai (can integrate with OpenAI, Gemini, etc.)
-- **Deployment:** [Render](https://render.com) (Free tier)
+- **Deployment:** [Render](https://fitness-profile.onrender.com) (Free tier)
 
 ---
 
@@ -45,7 +45,6 @@ app/
 ## ⚙️ Installation (Local Development)
 
 ### 1️⃣ Clone the repo
-```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
