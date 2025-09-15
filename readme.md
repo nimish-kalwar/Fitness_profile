@@ -63,7 +63,7 @@ pip install -r requirements.txt
 bash
 Copy
 Edit
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 Now open your browser at http://127.0.0.1:8000
 
 ## ☁️ Deployment on Render
