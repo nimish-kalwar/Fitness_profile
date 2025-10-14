@@ -12,7 +12,7 @@ if not os.getenv("GOOGLE_API_KEY"):
     raise RuntimeError("GOOGLE_API_KEY not loaded from .env")
 
 provider = GoogleProvider(api_key=os.getenv("GOOGLE_API_KEY"))
-model = GoogleModel('gemini-1.5-flash', provider=provider)
+model = GoogleModel('gemini-2.5-flash', provider=provider)
 
 fitness_agent = Agent(
     model=model,
