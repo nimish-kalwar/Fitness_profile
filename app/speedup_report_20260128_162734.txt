@@ -1,0 +1,24 @@
+Run at: 2026-01-28T16:27:34.479561
+Memory total: 8502812672, available: 334336000, percent: 96.1
+C: disk total: 239537070080, free: 37930242048, percent: 84.2
+Top processes by memory:
+PID 8692 | 1.41 GB | opera.exe
+PID 18720 | 453.23 MB | Code.exe
+PID 6780 | 443.51 MB | opera.exe
+PID 6096 | 388.44 MB | opera.exe
+PID 12468 | 376.52 MB | opera.exe
+PID 20624 | 292.51 MB | Code.exe
+PID 4972 | 281.96 MB | MsMpEng.exe
+PID 10032 | 273.69 MB | Code.exe
+PID 9108 | 261.59 MB | opera.exe
+PID 3032 | 239.05 MB | MemCompression
+PID 20352 | 171.37 MB | opera.exe
+PID 8076 | 146.29 MB | opera.exe
+PID 9724 | 137.98 MB | opera.exe
+PID 8972 | 135.63 MB | Code.exe
+PID 11720 | 132.98 MB | Code.exe
+PID 8372 | 131.97 MB | opera.exe
+PID 9996 | 131.27 MB | opera.exe
+PID 17900 | 129.20 MB | opera.exe
+PID 17492 | 127.30 MB | explorer.exe
+PID 17520 | 120.23 MB | msedge.exe
