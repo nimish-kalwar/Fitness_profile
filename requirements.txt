@@ -4,3 +4,4 @@ jinja2
 python-multipart
 pydantic_ai
 requests
+starlette==0.46.2
